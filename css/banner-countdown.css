@@ -1,0 +1,81 @@
+.componet-banner-countdown{
+    height: 350px;
+    background-image: url(../images/5_3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    color:black;
+}
+
+.infor-countdown{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.name-product-countdown{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.price-product-countdown{
+    color: #ef1e1e;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.infor-countdown{
+    color:#666;
+}
+
+.time-session{
+    font-size: 35px;
+    color:black;
+}
+
+.title-session1{
+    color:#666;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.title-session2{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color:#666;
+}
+
+.title-session3{
+    position: absolute;
+    top: 20px;
+    left: -8px;
+    color:#666;
+}
+.title-session4{
+    position: absolute;
+    top: 20px;
+    left:-8px;
+    color:#666;
+}
+.countdown-time-session{
+    position: relative;
+}
+
+.btn-countdown{
+    font-size: 13px;
+    font-weight: bolder;
+    background-color: #ef1e1e;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    color: white;
+    transition: background-color 0.2s;
+    margin: 20px 0;
+}
+
+.btn-countdown:hover{
+    background-color: #525151;
+}
