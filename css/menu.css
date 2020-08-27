@@ -1,0 +1,183 @@
+body{
+    margin:0;
+}
+
+.component-menu{
+    display: flex;
+    padding: 15px 12px;
+    align-items: center;
+}
+
+.menus{
+    display: flex;
+    flex-grow:1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 30px;
+}
+
+.menu{
+    margin:0 15px;
+    font-weight: bold;
+}
+
+.home{
+    color:#ef1e1e;
+    border-bottom: 2px solid #ef1e1e;
+}
+.icons{
+    display:flex;
+}
+
+.icon{
+    padding: 0 10px;
+    font-size:20px;
+}
+
+.funitureandlight{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    align-items: stretch;
+    padding: 10px;
+    display: none;
+}
+
+.menu-funitureandlight{
+    position: relative;
+}
+.menu-funitureandlight .name-menu{
+    transition: color 0.2s;
+}
+
+.menu-funitureandlight:hover .name-menu{
+    color:#ef1e1e;
+    border-bottom: 2px solid #ef1e1e;
+}
+.menu-funitureandlight:hover .funitureandlight{
+    display: block;
+    top:100%;
+    left:0;
+}
+
+.list-funitureandlight{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list-category{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.name-list-category{
+    font-weight: bold;
+}
+
+.category{
+    color: #666;
+    margin: 10px 0;
+}
+
+.listad{
+    display: flex;
+
+}
+.banner-menu{
+    width:400px;
+    height:150px;
+}
+
+.banner-menu1{
+    margin-right: 30px;
+}
+
+.category-kitchen{
+    padding:5px 10px;
+    color: #666;
+    width: max-content;
+}
+.list-category hr{
+    color: #666;
+}
+
+.kitchen{
+    position: relative;
+}
+
+.list-category-kitchen{
+    position: absolute;
+    display: none;
+}
+
+.kitchen .name-kitchen{
+    transition: color 0.2s;
+}
+.kitchen:hover .name-kitchen{
+    color:#ef1e1e;
+    border-bottom: 2px solid #ef1e1e;
+}
+
+.kitchen:hover .list-category-kitchen{
+    display:block;
+    top:100%;
+    left:0;
+}
+
+.contact, .About{
+    transition: color 0.2s;
+}
+
+.contact:hover, .About:hover{
+    color:#ef1e1e;
+    border-bottom: 2px solid #ef1e1e;
+}
+
+.icon{
+    color: black;
+}
+.icon a:link{
+    color:black;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.icon a:visited{
+    color:black;
+}
+
+.icon a:hover{
+    color:#ef1e1e;
+}
+
+.text-ad{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    padding:130px 30px;
+}
+.text-tiltle{
+    font-size: xx-large;
+}
+
+.text-infor{
+    color:#666;
+}
+
+.btn-shop-now{
+    padding: 10px 15px;
+    font-size: 10px;
+    border-radius: 17px;
+    border: none;
+    background: #ef1e1e;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+
+.compent-header{
+    background-image: url("../images/bannerheader.jpg");
+    background-size: cover;
+}
