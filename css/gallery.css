@@ -1,0 +1,9 @@
+.component-gallery{
+    display:flex;
+    padding: 20px 10px;
+}
+.image{
+    width:422px;
+    height: 230px;
+    padding: 0 10px;
+}
