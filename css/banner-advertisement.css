@@ -1,0 +1,42 @@
+.component-advertisement{
+    display: flex;
+    height: 500px;
+    background-color: #f19596;
+}
+
+.img-advertisement{
+    width:50%;
+    background-image: url("../images/4_3.jpg");
+}
+
+.infor-advertisement{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advertisement{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:70%;
+}
+
+.advertisement span{
+    font-size: xxx-large;
+}
+
+.advertisement button{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.advertisement button:hover{
+    color:white;
+    background-color: #ef1e1e;
+}
