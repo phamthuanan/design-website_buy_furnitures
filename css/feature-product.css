@@ -1,0 +1,96 @@
+.component-Featured-Products{
+    display: flex;
+    width: 23%;
+    padding: 20px;
+    align-items: stretch;
+    border: 1px solid #c7cac7;
+    border-radius: 5px;
+    position: relative;
+}
+
+.component-Featured-Products:hover{
+    border: 1px solid #ef1e1e;
+}
+
+.component-Featured-Products:hover .icon-search{
+    opacity:1;
+}
+
+.img-cover-featured{
+    width: 130px;
+    background-image: url(../images/the-adventure-begins-framed-poster.jpg);
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.img-cover-featured a{
+    display: block;
+    height: 100%;
+}
+.infor-featured-product{
+    flex-grow: 1;
+}
+
+.type-feature:link{
+    color: #666;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.type-feature:visited{
+    color: #666;
+}
+.type-feature:hover{
+    color: black;
+}
+
+.name-feature:link{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: color 0.2;
+}
+
+.name-feature:visited{
+    color: black;
+}
+.name-feature:hover{
+    color: #ef1e1e;
+}
+
+.star-rating-feature{
+    font-size: 15px;
+    color: #fdd835;
+    margin-bottom: 10px;
+}
+
+.price-feature{
+    font-size: 15px;
+}
+
+.icon-search{
+    position: absolute;
+    top: 75px;
+    left: 60px;
+    opacity:0;
+}
+
+.icon-search a:link{
+    color:black;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 100%;
+    border: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.icon-search a:visited{
+    color:black;
+}
+
+.icon-search a:hover{
+    color:white;
+    background-color:#ef1e1e;
+}
