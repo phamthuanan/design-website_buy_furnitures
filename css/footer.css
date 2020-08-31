@@ -1,0 +1,184 @@
+.component-footer{
+    background-color: #dcdcdc6e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.componet-footer-row1{
+    display: flex;
+    padding: 70px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.infor-contact{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    color: #666;
+    padding: 0 30px 0 50px;
+    box-sizing: border-box;
+}
+
+.infor-intro{
+    font-size: 14px;
+}
+
+.phone{
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 50px;
+}
+
+.phone-number{
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+}
+
+.social-network{
+    font-size: 22px;
+}
+
+.social-network a:link{
+    padding: 0 15px;
+    transition: all 0.3s;
+    text-decoration: none;
+    color:#666;
+}
+
+.social-network a:visited{
+    color:#666;
+}
+
+.social-network a:hover{
+    color: #ef1e1e;
+}
+
+.information , .customer-link{
+    width: 16.6%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.customer-link{
+    width: 16.6%;
+    padding: 0 30px 0 0;
+    box-sizing: border-box;
+}
+.information h3, .customer-link h3, .new-letter h3{
+    margin-top: 0;
+}
+
+
+
+.hr-line{
+    display: flex;
+    align-items: stretch;
+}
+
+.hr-gray{
+    width: 100%;
+    margin-top: 2px;
+}
+.hr-red{
+    width: 25%;
+    height: 3px;
+    background-color: #ef1e1e;
+    margin: 0;
+    border: none;
+}
+
+.list-informations{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-informations li{
+    padding: 5px 0;
+    color: #666;
+    transition: all 0.3s;
+}
+
+
+
+.list-informations li a:link{
+    text-decoration: none;
+    color:#666;
+    transition: all 0.3s;
+}
+
+.list-informations li a:visited{
+    text-decoration: none;
+    color:#666;
+}
+.list-informations li a:hover{
+    padding-left: 10px;
+    color:#ef1e1e;
+}
+
+
+
+.new-letter{
+    width: 33.33%;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.form-email{
+    position: relative;
+    padding-bottom: 20px;
+}
+.btn-input{
+
+    background-color: #333131;
+    color: white;
+    padding: 10px;
+    height: 45px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    position:absolute;
+    right:0;
+    transition: all 0.3s;
+}
+
+.btn-input:hover{
+    background-color: #ef1e1e ;
+    color:white;
+}
+.input-email{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 90%;
+    height: 25px;
+}
+
+.componet-footer-row2{
+    display: flex;
+}
+
+.copyright{
+    width: 33.33%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.copyright p{
+    margin: 0;
+    
+}
+
+.payment{
+    width: 66.66%;
+    padding-left: 30px;
+}
+
+.componet-footer-row2{
+    padding-bottom: 30px;
+}
+
+.infor-subcribe{
+    color:#666;
+}
