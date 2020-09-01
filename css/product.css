@@ -1,14 +1,15 @@
 .component-product{
-    border: 1px solid #aaa;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 8px;
     display:flex;
     flex-direction: column;
-    width: 250px;
     align-items: stretch;
     position: relative;
 }
 
 .component-product:hover{
     border: 1px solid #ef1e1e;
+    border-radius: 8px;
 }
 
 .component-product:hover .option-product{

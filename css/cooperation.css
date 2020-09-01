@@ -5,6 +5,8 @@
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    margin: 90px 20px;
 }
 
 .img-coop{

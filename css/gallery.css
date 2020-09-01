@@ -3,7 +3,8 @@
     padding: 20px 10px;
 }
 .image{
-    width:422px;
+    width: 100%;
     height: 230px;
-    padding: 0 10px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
 }

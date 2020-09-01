@@ -1,0 +1,38 @@
+.component-title-name-list-product{
+    text-align: center;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.component-title-name-list-product span a:link{
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.component-title-name-list-product span a:visited{
+    color: #666;
+}
+
+.component-title-name-list-product span a:hover{
+    color: #ef1e1e;
+}
+
+.component-title-name-list-product h2{
+    color:black;
+    font-weight: bold;
+}
+
+.component-title-name-list-product hr{
+    width: 3%;
+    height: 3px;
+    background-color: #ef1e1e;
+    border: none;
+    margin-top: 20px;
+}
+
+.component-title-name-list-product p{
+    font-size: 14px;
+}

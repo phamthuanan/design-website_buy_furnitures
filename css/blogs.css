@@ -1,8 +1,10 @@
 .component-blogs{
     display: flex;
     flex-direction: column;
-    width: 31%;
     align-items: stretch;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+    
 }
 
 .img-cover-blogs{

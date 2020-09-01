@@ -1,6 +1,5 @@
 .component-Featured-Products{
     display: flex;
-    width: 23%;
     padding: 20px;
     align-items: stretch;
     border: 1px solid #c7cac7;
@@ -34,7 +33,7 @@
 
 .type-feature:link{
     color: #666;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
 }
 
@@ -47,7 +46,7 @@
 
 .name-feature:link{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
     font-weight: bolder;
     transition: color 0.2;
@@ -61,13 +60,13 @@
 }
 
 .star-rating-feature{
-    font-size: 15px;
+    font-size: 14px;
     color: #fdd835;
     margin-bottom: 10px;
 }
 
 .price-feature{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .icon-search{
